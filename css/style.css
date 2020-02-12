@@ -58,7 +58,7 @@ section .content {
   animation-delay: 0.5s;
   opacity: 0;
 }
-section .content h2 {
+section .content h1 {
   color: #fff;
   font-size: 3em;
   font-weight: 800;
@@ -483,7 +483,7 @@ p.stop {
     padding: 50px;
     margin-bottom: 30px;
   }
-  section .content h2 {
+  section .content h1 {
     font-size: 1.5em;
   }
   h2 span {
