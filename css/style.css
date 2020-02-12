@@ -64,7 +64,7 @@ section .content h1 {
   font-weight: 800;
   text-transform: uppercase;
 }
-h2 span {
+h1 span {
   font-size: 76px;
   color: #4d25ff;
 }
@@ -486,7 +486,7 @@ p.stop {
   section .content h1 {
     font-size: 1.5em;
   }
-  h2 span {
+  h1 span {
     font-size: 56px;
   }
   section .content p {
