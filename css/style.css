@@ -340,7 +340,7 @@ section .about p,
 section .group {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
   background: linear-gradient(326deg, #323133 0%, rgba(14, 11, 13, 0.5) 74%),
     url("../img/work/basketball-1492286-1920.jpg") center/cover no-repeat fixed;
 }
