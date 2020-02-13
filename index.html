@@ -151,7 +151,18 @@
 
       gtag("config", "UA-158262739-1");
     </script>
-
+    <!-- script scrollreveal -->
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal(
+        ".imgBx, .sci, .about, .team, h1, h2, p, .gallery-img, .fa, .far, .contact",
+        {
+          reset: true,
+          delay: 300
+        }
+      );
+    </script>
     <script src="js/all.js"></script>
     <script src="js/app.js"></script>
   </body>
