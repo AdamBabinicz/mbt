@@ -32,7 +32,9 @@ section {
   align-items: center;
   overflow: hidden;
 }
-section::before {
+section::before,
+.group::before,
+.contact::before {
   content: "";
   position: absolute;
   top: 0;
@@ -171,12 +173,12 @@ section .imgBx img {
 section .about {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
   background: linear-gradient(326deg, #323133 0%, rgba(14, 11, 13, 0.5) 74%),
     url("../img/1.jpg") center/cover no-repeat fixed;
 }
 section .about::before,
-.contact::before {
+.team::before {
   content: "";
   position: absolute;
   top: 0;
@@ -191,6 +193,9 @@ section .about::before,
   -webkit-animation-delay: 1.5s;
   animation-delay: 1.5s;
   opacity: 0;
+}
+.team {
+  background: #222;
 }
 /*Start gallery*/
 .gallery {
@@ -305,6 +310,8 @@ section .about::before,
   min-height: 100vh;
 } */
 section .about h2,
+.group h2,
+.group ul,
 .team h2,
 .contact h2,
 p {
@@ -313,6 +320,7 @@ p {
   color: #fff;
 }
 section .about h2,
+.group h2,
 .team h2,
 .contact h2 {
   margin-top: 3rem;
@@ -322,11 +330,33 @@ section .about h2,
 }
 section .about p,
 .team p,
+.group ul,
 .contact p {
   font-size: 18px;
   line-height: 2rem;
   margin-top: 2rem;
   padding: 2rem 5rem;
+}
+section .group {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(326deg, #323133 0%, rgba(14, 11, 13, 0.5) 74%),
+    url("../img/work/basketball-1492286-1920.jpg") center/cover no-repeat fixed;
+}
+section .group ul {
+  /* column-count: 2;
+  column-gap: 5rem; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: 0 auto;
+}
+section .group ul li {
+  line-height: 4rem;
+  list-style: none;
+  font-size: 22px;
+  margin: 0 auto;
 }
 /* section .team {
   position: relative;
@@ -350,6 +380,9 @@ section .contact {
     url("../img/work/galatasaray-odeabank-2940760-1920.jpg") center/cover
       no-repeat fixed;
 }
+footer {
+  min-height: auto;
+}
 p.stop {
   font-weight: 900;
   display: block;
@@ -358,7 +391,6 @@ p.stop {
   margin: 0 auto;
   background: #222;
   width: 100%;
-  min-height: 10vh;
 }
 .stop span {
   font-size: 1.5rem;
@@ -504,6 +536,17 @@ p.stop {
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
+  }
+  .group ul {
+    grid-template-columns: 1fr !important;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .group ul li {
+    /* margin: auto; */
+    margin-top: -1.5rem !important;
+    font-size: 18px !important;
   }
   .gallery-item {
     display: -webkit-box;
