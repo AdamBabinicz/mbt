@@ -564,6 +564,7 @@ p.stop {
     width: 100%;
     display: -webkit-box;
     display: flex;
+    padding: 1rem;
     -webkit-box-pack: center;
     justify-content: center;
   }
