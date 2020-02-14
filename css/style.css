@@ -576,6 +576,7 @@ p.stop {
   }
   .fa-user {
     font-size: 1.5rem;
+    z-index: 1000;
   }
   .zaw span {
     font-size: 1.3rem;
