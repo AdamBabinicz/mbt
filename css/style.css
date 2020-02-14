@@ -504,7 +504,7 @@ p.stop {
     filter: invert(1);
     background-size: 25px;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 999;
   }
   .nav {
     position: fixed;
