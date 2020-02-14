@@ -337,6 +337,14 @@ section .about p,
   margin-top: 2rem;
   padding: 2rem 5rem;
 }
+.contact .fa-basketball-ball {
+  font-size: 8rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.4;
+}
 section .group {
   position: relative;
   width: 100%;
@@ -348,15 +356,33 @@ section .group ul {
   /* column-count: 2;
   column-gap: 5rem; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 80%;
+  grid-template-columns: repeat(2, minmax(300px, auto));
+  grid-column-gap: 7rem;
+  width: 89%;
   margin: 0 auto;
 }
 section .group ul li {
   line-height: 4rem;
   list-style: none;
   font-size: 22px;
-  margin: 0 auto;
+  position: relative;
+}
+.fa-user {
+  font-size: 2rem;
+}
+.zaw span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  top: 0;
+  left: -5rem;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  background: #3883ff;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 /* section .team {
   position: relative;
@@ -540,13 +566,22 @@ p.stop {
   .group ul {
     grid-template-columns: 1fr !important;
     flex-direction: column;
+    margin-left: 8rem !important;
+    margin-bottom: 3rem !important;
     width: 100%;
     padding: 0;
   }
   .group ul li {
-    /* margin: auto; */
-    margin-top: -1.2rem !important;
     font-size: 18px !important;
+  }
+  .fa-user {
+    font-size: 1.5rem;
+  }
+  .zaw span {
+    font-size: 1.3rem;
+    width: 45px;
+    height: 45px;
+    top: 0.7rem;
   }
   .gallery-item {
     display: -webkit-box;
@@ -592,6 +627,9 @@ p.stop {
   .sci {
     left: 50px;
     bottom: 30px;
+  }
+  .contact .fa-basketball-ball {
+    font-size: 5rem;
   }
 }
 /* sroll button */
