@@ -237,7 +237,7 @@ section .about::before,
 }
 .gallery-img img:hover {
   -webkit-transform: rotate(4deg) scale(1.2);
-  transform: scale(1.2) rotate(4deg);
+  transform: rotate(4deg) scale(1.2);
   opacity: 0.5;
 }
 .gallery-img .no {
@@ -597,15 +597,19 @@ p.stop {
     -webkit-box-direction: normal;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 0;
   }
   .gallery-img {
     overflow: hidden;
     margin: auto;
     margin-top: 2rem;
+    position: relative;
   }
   .gallery-img img {
     width: 100%;
     height: auto;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
   }
   /* section .gal img {
     max-width: 100%;
