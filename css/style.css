@@ -680,6 +680,10 @@ p.stop {
     bottom: 6px;
     right: 6px;
   }
+  .menuicon {
+    top: 20px;
+    right: 20px;
+  }
   .group ul {
     margin-left: 6.5rem !important;
   }

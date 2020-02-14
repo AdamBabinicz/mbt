@@ -25,7 +25,9 @@
   background: rgba(0, 0, 0, 0.9);
   z-index: 1002;
   overflow: auto;
+  -webkit-animation: lightboxIn 0.5s;
   animation: lightboxIn 0.5s;
+  -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 .lightbox.fadeOut {
@@ -47,6 +49,7 @@
 .lightbox__prev {
   right: auto;
   left: 0;
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .lightbox__close {
@@ -64,6 +67,7 @@
 .lightbox button {
   opacity: 0.5;
   cursor: pointer;
+  -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
   text-indent: -3000px;
 }
@@ -74,12 +78,16 @@
   /* width: auto;
   height: 100vh;
   height: auto; */
+  -webkit-animation: lightboxIn 0.5s;
   animation: lightboxIn 0.5s;
   width: 100%;
 }
 .lightbox__container {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
   margin-left: 50px;
   margin-right: 50px;
@@ -90,6 +98,14 @@
   height: 38px;
   opacity: 0.5;
   background: url(../images/loader.svg) center center no-repeat;
+}
+@-webkit-keyframes lightboxIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes lightboxIn {
   from {

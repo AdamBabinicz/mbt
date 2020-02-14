@@ -10,7 +10,7 @@ menu.addEventListener("click", () => {
   toggle.classList.toggle("actives");
 });
 
-//aktywne linki menu
+// aktywne linki menu
 let ul = document.querySelector("ul");
 let li = document.querySelectorAll("li");
 
@@ -21,7 +21,7 @@ li.forEach(el => {
     el.classList.add("active");
   });
 });
-//scroll
+// scroll to top
 const backToTopButton = document.querySelector("#back-to-top-btn");
 
 window.addEventListener("scroll", scrollFunction);
