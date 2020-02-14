@@ -680,7 +680,7 @@ p.stop {
     right: 6px;
   }
   .group ul {
-    margin-left: 10px;
+    margin-left: 6.5rem !important;
   }
 }
 /* Animations */
