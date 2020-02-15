@@ -170,8 +170,10 @@ section .imgBx img {
 .active a {
   border-bottom: 3px solid #4d25ff;
 }
-.nav li a:hover {
+.nav li a:hover,
+.nav-link a:focus {
   color: #4d25ff;
+  box-shadow: inset 7px 5px 10px #2b2d2f, inset -7px -5px 10px #3b3d3f;
 }
 section .about {
   position: relative;
