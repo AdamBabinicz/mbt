@@ -163,6 +163,9 @@ section .imgBx img {
   font-weight: 700;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  box-shadow: 7px 5px 10px #2b2d2f, -7px -5px 10px #3b3d3f;
+  padding: 10px 20px;
+  border-radius: 0.2rem;
 }
 .active a {
   border-bottom: 3px solid #4d25ff;
