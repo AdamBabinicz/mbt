@@ -246,7 +246,7 @@ section .about::before,
   opacity: 0.5;
 }
 .gallery-img .no {
-  display: contents;
+  display: none;
 }
 .gallery-description {
   -webkit-box-flex: 1;
@@ -682,6 +682,9 @@ p.stop {
   }
 }
 @media (max-width: 768px) {
+  section .content {
+    padding: 0 3rem;
+  }
   #back-to-top-btn {
     font-size: 18px;
     width: 32px;
