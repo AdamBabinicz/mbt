@@ -24,7 +24,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.9);
   z-index: 1000;
-  overflow: auto;
+  /* overflow: auto; */
   -webkit-animation: lightboxIn 0.5s;
   animation: lightboxIn 0.5s;
   -webkit-transition: opacity 0.3s;
@@ -82,7 +82,6 @@
   height: auto;
   -webkit-animation: lightboxIn 0.5s;
   animation: lightboxIn 0.5s;
-  
 }
 .lightbox__container {
   display: -webkit-box;
