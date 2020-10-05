@@ -706,7 +706,7 @@ p.stop {
   }
   .sci {
     bottom: 1.5rem;
-    margin-right: 0.5rem;
+    /* margin-right: 0.5rem; */
     display: grid;
     grid-template-columns: repeat(5, minmax(auto, auto));
   }
