@@ -708,17 +708,15 @@ p.stop {
   }
   .sci {
     margin-right: 0.5rem;
-    left: 0.8rem;
   }
   .sci p a {
+    /* left: 0.8rem; */
     display: grid;
-    flex-direction: column;
-    grid-template-columns: repeat(auto-fit, minmax(10px, auto));
-    padding: 0.3rem;
+    grid-template-columns: repeat(auto-fit, minmax(auto, auto));
   }
   .sci img.logo {
-    top: 0.5rem;
-    right: -0.5rem;
+    /* top: 0.5rem; */
+    right: -1.5rem;
   }
   .group ul {
     display: grid !important;
