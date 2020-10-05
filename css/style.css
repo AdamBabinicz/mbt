@@ -718,8 +718,8 @@ p.stop {
   }
   .sci img.logo {
     position: absolute;
-    top: -4.2rem;
-    right: -11rem;
+    top: -3.3rem;
+    left: -8.5rem;
   }
   .group ul {
     display: grid !important;
