@@ -113,6 +113,7 @@ section .imgBx img {
   left: 150px;
   display: -webkit-box;
   display: flex;
+  align-items: center;
   -webkit-animation: left-in 0.5s ease-in forwards;
   animation: left-in 0.5s ease-in forwards;
   -webkit-animation-delay: 1s;
@@ -704,7 +705,7 @@ p.stop {
     right: 20px;
   }
   .sci {
-    margin-top: 2rem;
+    bottom: 0.5rem;
     margin-right: 0.5rem;
   }
   .sci p a {
