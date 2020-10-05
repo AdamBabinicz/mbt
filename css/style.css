@@ -706,7 +706,10 @@ p.stop {
     margin-right: 0.5rem;
   }
   .group ul {
-    margin-left: 6rem !important;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    left: 5rem;
   }
 }
 /* Animations */
