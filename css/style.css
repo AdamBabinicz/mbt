@@ -705,18 +705,21 @@ p.stop {
     right: 20px;
   }
   .sci {
-    bottom: 1.5rem;
-    /* margin-right: 0.5rem; */
+    bottom: 0;
+    left: 50%;
+    height: 20%;
     display: grid;
-    grid-template-columns: repeat(5, minmax(auto, auto));
-  }
-  .sci p a {
-    /* left: 0.8rem; */
+    grid-template-columns: repeat(2, minmax(auto, auto));
+    grid-row-gap: 1rem;
     /* background: green; */
   }
+  .sci p a {
+    /* margin-bottom: 1rem; */
+  }
   .sci img.logo {
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: -4.2rem;
+    right: -11rem;
   }
   .group ul {
     display: grid !important;
