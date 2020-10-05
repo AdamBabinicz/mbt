@@ -358,7 +358,7 @@ section .about p,
 }
 section .group {
   position: relative;
-  max-width: 100%;
+  width: 100%;
   min-height: 110vh;
   background: linear-gradient(326deg, #323133 0%, rgba(14, 11, 13, 0.5) 74%),
     url("../img/work/basketball-1492286-1920.jpg") center/cover no-repeat fixed;
@@ -369,8 +369,9 @@ section .group ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 7rem;
-  width: 89%;
-  margin: 0 auto;
+  grid-row-gap: 2rem;
+  width: 100%;
+  margin-left: 8rem;
 }
 section .group ul li {
   line-height: 4rem;
@@ -583,7 +584,7 @@ p.stop {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    margin-left: 8rem !important;
+    /* margin-left: 8rem; */
     margin-bottom: 3rem !important;
     width: 100%;
     padding: 0;
@@ -701,11 +702,11 @@ p.stop {
     top: 20px;
     right: 20px;
   }
-  .group ul {
-    margin-left: 6.5rem !important;
-  }
   .sci p a {
     margin-right: 0.5rem;
+  }
+  .group ul {
+    margin-left: 6rem !important;
   }
 }
 /* Animations */
