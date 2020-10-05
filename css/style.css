@@ -717,6 +717,7 @@ p.stop {
   }
   .sci img.logo {
     right: 0;
+    color:red
   }
   .group ul {
     display: grid !important;
