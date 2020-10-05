@@ -704,6 +704,7 @@ p.stop {
   }
   .sci {
     margin-right: 0.5rem;
+    left: 0.8rem;
   }
   .sci p a {
     display: grid;
