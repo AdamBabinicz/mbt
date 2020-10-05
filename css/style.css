@@ -715,8 +715,8 @@ p.stop {
     grid-template-columns: repeat(auto-fit, minmax(auto, auto));
   }
   .sci img.logo {
-    /* top: 0.5rem; */
-    right: -1.5rem;
+    top: 0;
+    left: 0;
   }
   .group ul {
     display: grid !important;
