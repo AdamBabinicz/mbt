@@ -125,7 +125,7 @@ section .imgBx img {
 .sci p a {
   text-decoration: none;
   color: #999;
-  margin-right: 30px;
+  margin-right: 1rem;
   font-size: 0.9em;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -136,6 +136,11 @@ section .imgBx img {
   color: #fff;
   box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.05),
     3px 3px 3px rgba(253, 253, 253, 0.2);
+}
+.sci img.logo {
+  width: 3rem;
+  position: absolute;
+  top: -0.8rem;
 }
 .nav {
   position: absolute;
@@ -698,6 +703,9 @@ p.stop {
   }
   .group ul {
     margin-left: 6.5rem !important;
+  }
+  .sci p a {
+    margin-right: 0.5rem;
   }
 }
 /* Animations */
