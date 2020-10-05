@@ -715,6 +715,9 @@ p.stop {
     flex-direction: column;
     grid-template-columns: repeat(auto-fit, minmax(10px, auto));
   }
+  .sci img.logo {
+    flex-direction: column;
+  }
   .group ul {
     display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto)) !important;
