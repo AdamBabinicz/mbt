@@ -711,7 +711,7 @@ p.stop {
   .sci p a {
     /* left: 0.8rem; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(auto, auto));
+    grid-template-columns: repeat(2, minmax(auto, auto));
   }
   .sci img.logo {
     top: 0;
