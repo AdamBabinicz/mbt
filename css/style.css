@@ -140,9 +140,6 @@ section .imgBx img {
 }
 .sci img.logo {
   width: 3rem;
-  /* position: absolute;
-  top: -0.8rem;
-  right: -3rem; */
 }
 .nav {
   position: absolute;
