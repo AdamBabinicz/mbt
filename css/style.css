@@ -717,6 +717,7 @@ p.stop {
   }
   .group ul {
     display: flex;
+    margin-left: 3rem;
     /* grid-template-columns: repeat(auto-fit, minmax(400px, auto)); */
   }
   .group ul li {
