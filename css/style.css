@@ -717,8 +717,9 @@ p.stop {
   }
   .group ul {
     display: flex;
-    margin-left: 0.5rem;
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, auto)); */
+  }
+  .zaw {
+    left: -2rem;
   }
   .group ul li {
     /* position: absolute;
