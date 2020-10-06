@@ -1,9 +1,9 @@
 RewriteEngine On
 # przekierowanie dla przykładu www -> bez www
-RewriteCond %{HTTP_HOST} !^mbteam.netlify.com$ [NC]
-RewriteRule ^(.*)$ http://mbteam.netlify.com/$1 [L,R=301]
-RewriteRule ^index.php$ https://mbteam.netlify.com [R=301,L]
-RewriteRule ^index.html$ http://mbteam.netlify.com [R=301,L]
+RewriteCond %{HTTP_HOST} !^b-mbteam.netlify.app$ [NC]
+RewriteRule ^(.*)$ http://b-mbteam.netlify.app/$1 [L,R=301]
+RewriteRule ^index.php$ https://b-mbteam.netlify.app [R=301,L]
+RewriteRule ^index.html$ http://b-mbteam.netlify.app [R=301,L]
 RewriteRule ^index.(php|html|htm)$/ [R=301,L]
 
               
