@@ -711,16 +711,13 @@ p.stop {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-row-gap: 1rem;
-    /* background: green; */
   }
   .sci p a {
     /* margin-bottom: 1rem; */
   }
   .sci p img.logo {
-    /* position: absolute; */
-    /* top: -4rem;
-    left: -8.5rem; */
-    display: none;
+    position: absolute;
+    right: -2rem;
   }
   .group ul {
     display: grid !important;
