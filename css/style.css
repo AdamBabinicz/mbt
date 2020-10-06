@@ -687,6 +687,9 @@ p.stop {
   }
 }
 @media (max-width: 768px) {
+  section {
+    min-height: 135vh;
+  }
   section .content {
     padding: 0 2rem;
   }
@@ -702,16 +705,14 @@ p.stop {
     right: 20px;
   }
   .sci {
-    bottom: 0;
+    bottom: 3rem;
     left: 50%;
     height: 20%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-row-gap: 1rem;
   }
-  .sci p:nth-child(3) {
-    margin-bottom: 1rem;
-  }
+
   .sci p img.logo {
     position: absolute;
     right: -2rem;
