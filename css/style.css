@@ -712,7 +712,6 @@ p.stop {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-row-gap: 1rem;
   }
-
   .sci p img.logo {
     position: absolute;
     right: -2rem;
