@@ -363,10 +363,9 @@ section .group {
     url("../img/work/basketball-1492286-1920.jpg") center/cover no-repeat fixed;
 }
 section .group ul {
-  /* column-count: 2;
-  column-gap: 5rem; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  /* grid-template-columns: repeat(2, 1fr); */
   grid-column-gap: 7rem;
   grid-row-gap: 2rem;
   width: 100%;
@@ -717,14 +716,13 @@ p.stop {
     right: -2rem;
   }
   .group ul {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto)) !important;
-    background: red;
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, auto)); */
   }
   .group ul li {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
   }
 }
 /* Animations */
