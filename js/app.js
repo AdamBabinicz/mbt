@@ -14,8 +14,8 @@ menu.addEventListener("click", () => {
 let ul = document.querySelector("ul");
 let li = document.querySelectorAll("li");
 
-li.forEach(el => {
-  el.addEventListener("click", function() {
+li.forEach((el) => {
+  el.addEventListener("click", function () {
     ul.querySelector(".active").classList.remove("active");
 
     el.classList.add("active");
@@ -39,7 +39,7 @@ function scrollFunction() {
     if (backToTopButton.classList.contains("btnEntrance")) {
       backToTopButton.classList.remove("btnEntrance");
       backToTopButton.classList.add("btnExit");
-      setTimeout(function() {
+      setTimeout(function () {
         backToTopButton.style.display = "none";
       }, 250);
     }
@@ -78,3 +78,8 @@ function easeInOutCubic(t, b, c, d) {
   t -= 2;
   return (c / 2) * (t * t * t + 2) + b;
 }
+
+var currentDate = new Date();
+var currentYear = currentDate.getFullYear();
+var yearRangeElement = document.getElementById("yearRange");
+yearRangeElement.innerHTML = "B-M<span>B</span>T&nbsp;2020 - " + currentYear;
